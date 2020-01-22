@@ -23,7 +23,6 @@ public class Hw03 {
                     tryCount--;
                 }
             }
-
             System.out.println("Сыграть ещё? 1 - да, 0 - нет.");
             Scanner scan = (new Scanner(System.in));
             play = scan.nextInt();
