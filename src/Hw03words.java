@@ -7,7 +7,7 @@ public class Hw03words {
             int j=(int)Math.round(25*Math.random());
             System.out.println(words[j]);
             System.out.println("Guess a word, it can be fruit or a vegatable");
-            int  i=0;
+            int i=0;
             String userAnswer="user";
             while(!userAnswer.equals(words[j])) {
                 Scanner scan = (new Scanner(System.in));
@@ -25,6 +25,5 @@ public class Hw03words {
             play = scan1.nextInt();
 
         } while (play==1);
-
     }
 }
