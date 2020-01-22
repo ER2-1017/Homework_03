@@ -22,6 +22,7 @@ public class Hw03 {
                     System.out.println("Вы ввели слишком маленькое число! Осталось попыток: " + (tryCount));
                     tryCount--;
                 }
+
             }
             System.out.println("Сыграть ещё? 1 - да, 0 - нет.");
             Scanner scan = (new Scanner(System.in));
