@@ -23,7 +23,6 @@ public class Hw03words {
             System.out.println("Play more?");
             Scanner scan1 = (new Scanner(System.in));
             play = scan1.nextInt();
-
         } while (play==1);
     }
 }
