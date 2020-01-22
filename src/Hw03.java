@@ -6,7 +6,7 @@ public class Hw03 {
             int guess=(int) Math.round(9*Math.random());
             System.out.println("Угадайте c трёх раз число от 0 до 9.");
             int tryCount=2;
-            while (tryCount >=0)  {
+            while (tryCount >=0) {
                 Scanner scan = (new Scanner(System.in));
                 int userAnswer = scan.nextInt();
                 if (userAnswer == guess) {
@@ -23,6 +23,7 @@ public class Hw03 {
                     tryCount--;
                 }
             }
+
             System.out.println("Сыграть ещё? 1 - да, 0 - нет.");
             Scanner scan = (new Scanner(System.in));
             play = scan.nextInt();
